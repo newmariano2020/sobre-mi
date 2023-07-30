@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* establecemos los estilos por defecto en cero */
+
+
+.body {
+    background: #f3eb98;
+    text-align: center;
+}
+
+/* establecemos el color del fondo del body, alineamos el texto al centro */
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+/* necesitamos ubicar el bloque del encabezado al centro */
+
+.header-box {
+    width: 80%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+/* el ancho de la caja del encabezado tiene un ancho al 80% del componente padre y una sombra que lo destaca del fondo  */
+
+
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+/* ubicamos las cajas al centro por medio de darle la propiedad flex, ademas damos un margen que aplica a la parte superior e inferior principalmente  */
+
+.button-box {
+    display: flex;
+    gap: 50px;
+}
+
+/* la caja de botones tendra un comportamiento flex y un espaciado de 50px, sin el flex el gap no aplica */
+
+.nav-header {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    background-color: #419AB7;
+    height: 50px;
+    width: 150px;
+}
+
+/* damos estilos a los botones */
+
+.text-button {
+    text-decoration-line: none;
+    text-shadow: 1px 1px 2px black;
+    font-size: medium;
+    color: #ffffff;
+}
+
+/* establecemos los estilos del texto, aplicara a todos los textos que obtengan esta clase */
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* colocamos al main y aside en fila */
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* colocamos las cajas en flex y que si el ancho supera la caja, la tire para abajo con flex-wrap, las ubicamos al centro con justify-content */
+
+.article {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px;
+    background-color: rgb(131, 131, 26);
+    height: 200px;
+    width: 300px;
+}
+
+/* establecemos los estilos de las cajas contenedoras de las card */
+
+.article-1 {
+    background: rgb(51, 57, 57);
+    background: linear-gradient(90deg, rgba(51, 57, 57, 1) 0%, rgba(96, 218, 190, 0.3449754901960784) 100%);
+}
+
+/* aplicamos colores especificos al fondo de cada caja, pero con un degradez de color */
+
+.article-2 {
+    background: rgb(51, 57, 57);
+    background: linear-gradient(90deg, rgba(51, 57, 57, 1) 0%, rgba(118, 149, 105, 0.3449754901960784) 100%);
+}
+
+.article-3 {
+    background: rgb(51, 57, 57);
+    background: linear-gradient(90deg, rgba(51, 57, 57, 1) 0%, rgba(140, 105, 149, 0.3449754901960784) 100%);
+}
+
+.article-4 {
+    background: rgb(51, 57, 57);
+    background: linear-gradient(90deg, rgba(51, 57, 57, 1) 0%, rgba(186, 145, 56, 0.10688025210084029) 100%);
+}
+
+.article-5 {
+    background: rgb(51, 57, 57);
+    background: linear-gradient(90deg, rgba(51, 57, 57, 1) 0%, rgba(186, 77, 56, 0.10688025210084029) 100%);
+}
+
+.article-6 {
+    background: rgb(51, 57, 57);
+    background: linear-gradient(90deg, rgba(51, 57, 57, 1) 0%, rgba(56, 186, 97, 0.10688025210084029) 100%);
+}
+
+.article-7 {
+    background: rgb(51, 57, 57);
+    background: linear-gradient(90deg, rgba(51, 57, 57, 1) 0%, rgba(60, 56, 186, 0.025647759103641476) 100%);
+}
+
+.card-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.card-text {
+    color: #ffffff;
+}
+
+.img-course {
+    border-radius: 20px;
+    height: 150px;
+    width: 300px;
+    background-size: contain;
+}
+
+/* damos estilos a las imagenes, altura y ancho para que se muestren, le damos contain para que la imagen se adapte al tamaño definido y border radius para redondear los bordes de la imagen*/
+
+.aside {
+    display: flex;
+    width: 30%;
+    gap: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px
+}
+
+.aside-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 220px;
+    width: 275px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    gap: 10px;
+}
+
+.a-card-1 {
+    background-color: #E99B30;
+}
+
+.a-card-2 {
+    background-color: #5DB5C7;
+}
+
+.a-card-3 {
+    background-color: #8935C0;
+}
+
+.a-card-4 {
+    background-color: #C03561;
+}
+
+.img-aside {
+    border-radius: 20px;
+    height: 120px;
+    width: 180px;
+    background-size: contain;
+}
+
+.aside-button {
+    border: none;
+    background-color: #66C035;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.aside-img_box {
+    margin: 10px;
+}
+
+.aside-button_box {
+    display: flex;
+    justify-content: end;
+}
+
+.footer {
+    display: flex;
+    height: 8vh;
+    background-color: #39292E;
+    justify-content: center;
+}
+
+.footer-text {
+    align-self: center;
+    text-align: center;
+}

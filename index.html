@@ -1,12 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <!-- etiqueta para envolver el estilo del header y centrarlo -->
+      <div class="header-box">
+        <!-- etiqueta para darle estilo box shadow al header -->
+        <h1>Información sobre los mejores cursos en Línea</h1>
+      </div>
+    </header>
+
+    <nav class="nav">
+      <div class="button-box">
+        <!-- etiqueta para envolver y ordenar los botones del nav para aplicarles estilos flex -->
+        <button class="nav-header">
+          <a href="" class="text-button">cursos gratis</a>
+        </button>
+        <button class="nav-header">
+          <a href="cursos con descuentos" class="text-button"
+            >Cursos con descuentos</a
+          >
+        </button>
+        <button class="nav-header">
+          <a href="cursos premium" class="text-button">cursos premium</a>
+        </button>
+      </div>
+    </nav>
+    <div class="container">
+      <!-- etiqueta para envolver el main y el aside, con el flex-direction row los ubicamos en fila -->
+      <main class="main">
+        <!-- etiqueta para envolver las cards y ordenarlas, notar el flex wrap y display row para tirar las cajas hacia abajo -->
+        <article class="article article-1">
+          <!-- etiqueta para darle estilos al card pero tbn con una clase adicional espeficica para colorear solo ésta -->
+          <div class="card-article">
+            <!-- etiqueta para envolver el estilo de los componentes del card, los necesitamos vertical -->
+            <span class="text-button">Combinaciones de Estilos </span
+            ><!-- aplicamos clase para darle estilos al texto -->
+            <img
+              class="img-course"
+              alt="img"
+              src="public/combinaciones-de-estilos.jpg"
+            />
+            <span class="text-button">duración 5:45m </span>
+          </div>
+        </article>
+        <article class="article article-2">
+          <div class="card-article">
+            <span class="text-button">Curso de E-commerce</span>
+            <img class="img-course" alt="img" src="public/e-comerce.jpg" />
+            <span class="text-button">duración 2:30m</span>
+          </div>
+        </article>
+        <article class="article article-3">
+          <div class="card-article">
+            <span class="text-button">Curso de Ia + Gestión de datos</span>
+            <img class="img-course" alt="img" src="public/ia-data-cience.jpg" />
+            <span class="text-button">duración 1:45m</span>
+          </div>
+        </article>
+        <article class="article article-4">
+          <div class="card-article">
+            <span class="text-button">Curso de Manualidades de Navidad </span>
+            <img
+              class="img-course"
+              alt="img"
+              src="public/manualidad-navidad.jpg"
+            />
+            <span class="text-button">duración 5:0m</span>
+          </div>
+        </article>
+        <article class="article article-5">
+          <div class="card-article">
+            <span class="text-button">Curso de María Data Base </span>
+            <img class="img-course" alt="img" src="public/maria-db.jpg" />
+            <span class="text-button">duración 4:30m</span>
+          </div>
+        </article>
+        <article class="article article-6">
+          <div class="card-article">
+            <span class="text-button">Curso de Monetización </span>
+            <img class="img-course" alt="img" src="public/youtube.jpg" />
+            <span class="text-button">duración 3:25m</span>
+          </div>
+        </article>
+        <article class="article article-7">
+          <div class="card-article">
+            <span class="text-button">curso de </span>
+            <img class="img-course" alt="img" src="public/siteground.jpg" />
+            <span class="text-button">duración 5:30m</span>
+          </div>
+        </article>
+        <article class="article article-8">
+          <div class="card-article">
+            <span class="text-button">curso de </span>
+            <img class="img-course" alt="img" src="public/wordpress.jpg" />
+            <span class="text-button">duración 14:26m</span>
+          </div>
+        </article>
+      </main>
+      <aside class="aside">
+        <!-- el aside tiene un comportamiento en estilos similar al main, pero con menos width o ancho -->
+        <div class="aside-card a-card-1">
+          <span class="text-button"
+            >Curso promocionado Resolución de Problemas
+            <div class="aside-img_box">
+              <img
+                class="img-aside"
+                alt=""
+                src="public/Resolucion- problemas.jpg"
+              /></div
+          ></span>
+          <div class="aside-button_box">
+            <button class="aside-button">más información</button>
+          </div>
+        </div>
+        <div class="aside-card a-card-2">
+          <span class="text-button"
+            >Curso promocionado Negociós y disuación
+            <div class="aside-img_box">
+              <img
+                class="img-aside"
+                alt=""
+                src="public/Curso-Negocios.jpg"
+              /></div
+          ></span>
+          <div class="aside-button_box">
+            <button class="aside-button">más información</button>
+          </div>
+        </div>
+        <div class="aside-card a-card-3">
+          <span class="text-button"
+            >Curso promocionado Google-Forms
+            <div class="aside-img_box">
+              <img
+                class="img-aside"
+                alt=""
+                src="public/google-forms.jpg"
+              /></div
+          ></span>
+          <div class="aside-button_box">
+            <button class="aside-button">más información</button>
+          </div>
+        </div>
+        <div class="aside-card a-card-4">
+          <span class="text-button"
+            >Curso promocionado Inglés Práctico
+            <div class="aside-img_box">
+              <img
+                class="img-aside"
+                alt=""
+                src="public/Practica-ingles.jpg"
+              /></div
+          ></span>
+          <div class="aside-button_box">
+            <button class="aside-button">más información</button>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </body>
+  <footer class="footer"><!-- etiqueta para envolver el estilo del footer y centrarlo, como en ejemplos anteriores es necesario que el contenido este en una caja o div -->
+    <div class="footer-text"><!-- etiqueta para ser centrado por la etiqueta padre, ademas, establece la alineación vertical de los componentes hijos -->
+      <span class="text-button">Creador de contenido</span>
+      <span class="text-button">Cirilli Luis Mariano</span>
+      <span class="text-button">2023</span>
+      <span class="text-button">Todos los derechos reservados</span>
+    </div>
+  </footer>
 </html>
