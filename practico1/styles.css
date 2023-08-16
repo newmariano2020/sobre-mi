@@ -1,0 +1,76 @@
+* {
+    background-color: #C0C04D;
+}
+
+.header{
+    text-align: center;
+    margin-top: 10vh;
+}
+.result-input{
+    height: 70px;
+    width: 400px;
+    background-color: aquamarine;
+    font-size: 30px;
+    text-align: end;
+    padding: 5px;
+    padding-right: 20px;
+    border-radius: 12px;
+}
+
+.button-box {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 500px;
+    border: groove;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-image: linear-gradient(
+        135deg,
+        hsl(240deg 100% 20%) 0%,
+        hsl(289deg 100% 21%) 11%,
+        hsl(315deg 100% 27%) 22%,
+        hsl(329deg 100% 36%) 33%,
+        hsl(337deg 100% 43%) 44%,
+        hsl(357deg 91% 59%) 56%,
+        hsl(17deg 100% 59%) 67%,
+        hsl(34deg 100% 53%) 78%,
+        hsl(45deg 100% 50%) 89%,
+        hsl(55deg 100% 50%) 100%
+      );;
+    padding: 10px;
+}
+
+.button {
+    background-image: linear-gradient(
+  135deg,
+  hsl(240deg 12% 84%) 0%,
+  hsl(256deg 18% 81%) 11%,
+  hsl(273deg 22% 79%) 22%,
+  hsl(293deg 22% 75%) 33%,
+  hsl(313deg 28% 72%) 44%,
+  hsl(327deg 36% 71%) 56%,
+  hsl(336deg 43% 69%) 67%,
+  hsl(345deg 49% 67%) 78%,
+  hsl(352deg 51% 64%) 89%,
+  hsl(0deg 51% 62%) 100%
+);
+    width: 100px;
+    height: 100px;
+    color: #151514;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.enter {
+    width: 210px;
+}
