@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piedra - Papel - Tijera</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="container-body">
+    <h1 class="title-styles">Bienvenido</h1>
+    <div class="box-element">
+      <div class="box-input">
+        <label class="title-styles"
+          >-Ingresa tu nombre para jugar por 5 rondas</label
+        >
+        <label class="title-styles"
+          >-Ganará quén obtenga 3 puntos primero</label
+        >
+        <br />
+        <label class="title-styles">
+          <em>pero cuidado, un jugador ya participó...</em> 
+        </label>
+        <div>
+          <form>
+            <input id="input-name" type="text" class="input-style" />
+            <button id="button-user_name" type="button" class="button-style">
+              Aceptar
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="hidden-name title-styles"></div>
+
+      <div class="box-play">
+        <div class="papel user-image"></div>
+        <div class="piedra user-image"></div>
+        <div class="tijera user-image"></div>
+      </div>
+      <div class="box-cheq">
+        <button
+          value="papel"
+          id="papel-cheq"
+          class="choose-button"
+          type="button"
+          name="papel-cheq"
+        >
+          Papel
+        </button>
+        <button
+          value="piedra"
+          id="piedra-cheq"
+          class="choose-button"
+          type="button"
+          name="piedra-cheq"
+        >
+          Piedra
+        </button>
+        <button
+          value="tijera"
+          id="tijera-cheq"
+          class="choose-button"
+          type="button"
+          name="tijera-cheq"
+        >
+          Tijera
+        </button>
+      </div>
+      <div class="hidden-container">
+        <div class="text-box_trigger">
+          <h2 class="title-styles">
+            Has elegido! tu oponente también tiene su elección:
+          </h2>
+        </div>
+        <div class="box-oponent_selected">
+          <div class="papel oponent-images"></div>
+          <div class="piedra oponent-images"></div>
+          <div class="tijera oponent-images"></div>
+        </div>
+
+        <div class="results-box">
+          <span class="title-styles"> RESULTADO: </span>
+          <span class="title-styles" id="result-span"> </span>
+        </div>
+        <div class="button-botom">
+          <div id="next-round" class="button-nextRound_box">
+            <button class="button-style left">Siguiente Ronda</button>
+          </div>
+          <div id="reload-game" class="button-reload_game">
+            <button class="button-style rigth">Reiniciar juego</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./actions.js"></script>
+  </body>
+</html>

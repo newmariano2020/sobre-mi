@@ -1,0 +1,137 @@
+.container-body {
+    background-color: black;
+    text-align: center;
+    height: 100%;
+}
+
+.title-styles {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-element {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-input {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-style {
+    width: 50%;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+.button-style {
+    border-radius: 15px;
+    background-color: #A2FADF;
+    cursor: pointer;
+    height: 30px;
+    width: 25%;
+}
+
+.box-play {
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+
+}
+.choose-button{
+        border-radius: 15px;
+    background-color: #A2FADF;
+    cursor: pointer;
+    height: 30px;
+    width: 10%;
+}
+.papel {
+    background-size: cover;
+    background-position: center;
+    background-image: url("./images/papel.jpeg");
+    border-radius: 15px;
+    height: 150px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.tijera {
+    border-radius: 15px;
+    height: 150px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./images/tijera.jpeg");
+    cursor: pointer;
+}
+
+.piedra {
+    border-radius: 15px;
+    height: 150px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./images/piedra.jpeg");
+    cursor: pointer;
+}
+
+.box-cheq {
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    color:#5AFF33;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.cheq-style {
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.box-oponent_selected{
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+    
+    justify-content: center;
+}
+.box-cheq_oponent{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color:#5AFF33;
+}
+.button-botom{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 40px;
+}
+.results-box {
+    margin-top: 20px;
+}
+
+.left{
+    width: 70%;
+    height: 45px;
+}
+
+.rigth{
+    width: 70%;
+    height: 45px;
+}
+
+.button-nextRound_box{
+display: none;
+}
